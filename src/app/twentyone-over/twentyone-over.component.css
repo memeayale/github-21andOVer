@@ -1,0 +1,28 @@
+
+  /* Create three equal columns */
+ 
+  .column1 {
+    background: url("https://www.medicalnewstoday.com/content/images/articles/323/323579/hookah-smoking.jpg");
+    width: 98%;
+    padding: 100px;
+    height: 50vh; 
+    margin: 40px;
+  }
+  .column2 {
+    background: url("https://www.hitechpanda.com.au/wp-content/uploads/2018/11/banner-led-night-club.jpg");   
+    width: 98%;
+    padding: 100px;
+    height: 50vh; 
+    margin: 40px;
+  }
+  .title {
+    color: aliceblue;
+    font-size: 80px;
+  }
+  .column3 {
+    background: url("https://dopemagazine.com/wp-content/uploads/2016/01/Uncle-Ikes3-1200x647.jpg");
+    width: 98%;
+    padding: 100px;
+    height: 50vh; 
+    margin: 40px;
+  }
