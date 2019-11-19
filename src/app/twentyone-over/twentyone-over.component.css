@@ -19,8 +19,8 @@
 }
 .title {
   font-size: 80px;
-  display: inherit;
-  justify: center;
+  display: flex;
+  justify-content: center;
   margin: 5px auto 5px auto;
 }
 
@@ -35,7 +35,7 @@
 .litto-div {
   background: rgb(238, 240, 149);
   width: 21%;
-  height: 600px;
+  height: 200px;
   display: inline-flex;
   margin: 60px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
