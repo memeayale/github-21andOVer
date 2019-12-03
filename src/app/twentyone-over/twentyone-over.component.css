@@ -1,32 +1,89 @@
-.body {
-  background: url("https://res.cloudinary.com/jewish-in-seattle/image/upload/c_crop,h_1800,w_2700,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/jis_1216_neighborhoods_cap_hill_street_car_clw68p.jpg");
-  transition: 10s;
-  width: 98%;
-  height: 100%;
-  background-size: auto;
+.html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+
+.body {
+  background-color: mintcream;
+  
+}
+
+
+.main-head {
+  position: relative;
+  justify-content: center;
+  padding: 10px;
+  text-align: justify;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.main-title {
+  position: absolute;
+  width: 95vw;
+  justify-content: center;
+  margin: 5px auto 5px auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  
+}
+
+.main-title span{ 
+  
+    background-color: rgba(18, 33, 44, 0.6);
+    color: #fff; 
+    font-size: 80px;
+    display: inline-flex;
+    padding: 0.5rem;
+}
+
 
 
 .head {
-  background-color: rgba(220, 171, 23, 0.7);
-  display: flex;
+  
+  position: relative;
+  opacity: 0.8;
   justify-content: center;
-  width: 80vw;
-  padding: 50px;
-  margin: 50px auto 20px auto;
+  width: 90vw;
+  padding:10px;
+  margin: 20px auto 10px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
+.head img {
+  width: 100%;
+}
 .title {
-  font-size: 90px;
-  color: aliceblue;
-  display: inherit;
-  justify-content: center;
-  margin: 5px auto 5px auto;
+    display: inherit;
+    justify-content: center;
+    margin: 5px auto 5px auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    color: white;
+  
+    
+}
+
+.title span{ 
+  
+  background-color: rgba(1, 8, 11, 0.71);
+  color: #fff; 
+  font-size: 50px;
+  display: inline-flex;
+  padding: 0.3rem;
+ 
 }
 
 .big-div {
-  background: rgba(109, 106, 106, 0.77);
+  background:rgb(211,211,211);
   display: flex;
   justify-content:space-between;
     flex-wrap: wrap;
@@ -37,8 +94,8 @@
 
 .container {
   position: relative;
-  width: 500px;
-  margin: 10%;
+  width: 330px;
+  margin: 4%;
 }
 
 .image {
@@ -66,7 +123,7 @@
 
 .text {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -76,6 +133,11 @@
   text-align: center;
 }
 .little-div {
-  margin: 60px auto;
+  margin: 20px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.span {
+  display: inline;
 }
